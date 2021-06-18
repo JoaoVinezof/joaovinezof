@@ -1,0 +1,9 @@
+{
+  "title": "Portfolio",
+  "description": "Projeto simples e minimalista de portfólio, a ideia era divulgar meus trabalhos e meus blogs.",
+  "date": "2021-04-01T01:00:00.000Z",
+  "job": "Design e Desenvolvimento",
+  "color": "#F80759",
+  "image": "/static/portfolio-header.jpg",
+  "link": "https://joaovinezof.dev"
+}

@@ -1,5 +1,5 @@
 {
-  "name": "jo-o-vinezof",
+  "name": "joao-vinezof",
   "version": "1.0.0",
   "private": true,
   "description": "João Vinezof",
@@ -20,17 +20,25 @@
     "gatsby-plugin-image": "^1.7.1",
     "gatsby-plugin-manifest": "^3.7.1",
     "gatsby-plugin-netlify-cms": "^5.7.1",
+    "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
     "gatsby-plugin-react-helmet": "^4.7.1",
     "gatsby-plugin-sharp": "^3.7.1",
     "gatsby-plugin-sitemap": "^4.3.1",
     "gatsby-plugin-styled-components": "^4.7.1",
+    "gatsby-remark-prismjs": "^5.4.1",
     "gatsby-source-filesystem": "^3.7.1",
+    "gatsby-transformer-json": "^3.7.1",
     "gatsby-transformer-remark": "^4.4.1",
     "gatsby-transformer-sharp": "^3.7.1",
     "netlify-cms-app": "^2.15.19",
+    "prismjs": "^1.23.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
-    "styled-components": "^5.3.0"
+    "styled-components": "^5.3.0",
+    "styled-icons": "^10.34.0"
+  },
+  "devDependencies": {
+    "prop-types": "^15.7.2"
   }
 }
