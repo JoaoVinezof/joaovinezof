@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components";
-import { Link as GatsbyLink } from "gatsby";
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 const baseStyle = css`
   position: relative;
@@ -40,6 +40,6 @@ export const A = styled.a`
   ${baseStyle};
 `;
 
-export const Link = styled(GatsbyLink)`
+export const Link = styled(AniLink)`
   ${baseStyle};
 `;

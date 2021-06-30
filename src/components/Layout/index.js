@@ -12,20 +12,18 @@ const Layout = ({ children }) => (
   <Wrapper>
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      <Main>
-        {children}
-        <Footer>
-          <Cta>
-            <Button variant={"primary"}>Enviar uma mensagem</Button>
-          </Cta>
-          <Copy>
-            <span role="img" aria-label="Copyright">
-              ©️ 2021 -
-            </span>
-            <strong>João Vinezof</strong>.
-          </Copy>
-        </Footer>
-      </Main>
+      <Main>{children}</Main>
+      <Footer>
+        <Cta>
+          <Button variant={"primary"}>Enviar uma mensagem</Button>
+        </Cta>
+        <Copy>
+          <span role="img" aria-label="Copyright">
+            ©️ 2021 -
+          </span>
+          <strong>João Vinezof</strong>.
+        </Copy>
+      </Footer>
     </ThemeProvider>
   </Wrapper>
 );

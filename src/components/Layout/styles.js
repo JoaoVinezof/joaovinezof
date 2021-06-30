@@ -3,11 +3,12 @@ import Paragraph from "../Paragraph";
 
 export const Wrapper = styled.section`
   display: flex;
+  flex-direction: column;
 `;
 
 export const Main = styled.main`
   width: 100%;
-  min-height: 100vh;
+  min-height: calc(100vh - 207px);
 `;
 
 export const Footer = styled.footer`

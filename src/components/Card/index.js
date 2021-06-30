@@ -12,7 +12,6 @@ const ImageWrapper = styled.div`
   .gatsby-image-wrapper {
     width: 100%;
     height: auto;
-    border-radius: var(--border);
     margin-bottom: 10px;
 
     @media (min-width: ${(props) => props.theme.breakpoints.desktop.min}) {
@@ -20,6 +19,10 @@ const ImageWrapper = styled.div`
       margin-bottom: 0;
     }
   }
+`;
+
+const Img = styled.img`
+  border-radius: var(--border);
 `;
 
 const Title = styled.h2`
@@ -52,6 +55,6 @@ const Footer = styled.div`
   }
 `;
 
-export { ImageWrapper, Title, Text, Footer };
+export { ImageWrapper, Title, Text, Footer, Img };
 
 export default Card;

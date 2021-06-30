@@ -1,8 +1,14 @@
 import React from "react";
+
 import { Column, Columns } from "../Grid";
 import { ColumnImage } from "./styles";
-import Card, { Footer, ImageWrapper, Text, Title as CardTitle } from "../Card";
-import { StaticImage } from "gatsby-plugin-image";
+import Card, {
+  Footer,
+  ImageWrapper,
+  Text,
+  Title as CardTitle,
+  Img as CardImage,
+} from "../Card";
 import Button from "../Button";
 
 const PortfolioItem = ({
@@ -18,11 +24,7 @@ const PortfolioItem = ({
     <Columns>
       <ColumnImage>
         <ImageWrapper>
-          <StaticImage
-            src={image}
-            alt="Header do portfolio"
-            placeholder="blurred"
-          />
+          <CardImage src={image} alt="Header do portfolio" />
         </ImageWrapper>
       </ColumnImage>
       <Column align="center">
